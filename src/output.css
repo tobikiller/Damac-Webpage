@@ -489,11 +489,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 6rem;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 @media (min-width: 768px) {
   .md\:mx-6 {
     margin-left: 1.5rem;
