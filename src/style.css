@@ -1,8 +1,8 @@
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .navbar{
         position: fixed;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         top: 0;
         right:  0;
@@ -18,9 +18,9 @@
       .navbar li {
           color:#7D8F3A;
           margin-left: 40px;
-          padding: 10px 0px;
+          padding: 20px 0px;
           height: auto;
-          text-transform: uppercase;
+       
           font-size: 42px;
 
       }
@@ -32,4 +32,36 @@
   
   background: rgba( 255, 255, 255, 0.75 );
 
+}
+
+
+.showR{
+    position: relative;
+    transform: rotate(-45deg);
+    top: -10px;
+    transition: 1s cubic-bezier(0.82, 0, 0.05, 0.99);
+    
+}
+
+
+.op{
+    opacity: 0;
+    transition: 1s cubic-bezier(0.82, 0, 0.05, 0.99);
+}
+
+.backR{
+    transform: rotate(0deg);
+    transition: 1s cubic-bezier(0.82, 0, 0.05, 0.99);
+}
+
+.showL{
+    transition: 0.5s cubic-bezier(0.82, 0, 0.05, 0.99);
+    transform: rotate(45deg);
+    width: 28px ;
+    position: relative;
+    top: 3px;
+}
+
+.change{
+    background: #7D8F3A;
 }
