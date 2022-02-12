@@ -590,6 +590,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .bg-greenTeal {
   --tw-bg-opacity: 1;
   background-color: rgb(125 143 58 / var(--tw-bg-opacity));
