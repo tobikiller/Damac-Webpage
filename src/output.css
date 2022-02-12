@@ -492,6 +492,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .mx-9 {
   margin-left: 2.25rem;
   margin-right: 2.25rem;
@@ -530,6 +534,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.25rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -552,6 +560,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-0 {
   width: 0px;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .items-center {
