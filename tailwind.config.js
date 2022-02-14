@@ -8,7 +8,8 @@ module.exports = {
       },
       fontFamily: {
         'Montserrat': "Montserrat",
-        'Poppins': "poppins"
+        'Poppins': "Poppins",
+        'Edwarain': "Edwardian Script"
       }
     },
   },

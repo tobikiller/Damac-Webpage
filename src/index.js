@@ -5,28 +5,28 @@ const rotateR = document.querySelector(".btn-rotateR")
 const rotateL = document.querySelector(".btn-rotateL")
 const Btnopacity = document.querySelector(".btn-opacity")
 
-btnToggle.addEventListener("click", function(){
- 
-    btnColor.forEach(function(e){
-        if(navBar.classList.contains("show")){
-            navBar.classList.remove("show")
-            rotateR.classList.add("backR")
-         
-            rotateR.classList.toggle("backR")
-            console.log(rotateR);
-        }else{
-            navBar.classList.add("show")
-       
-            
- 
-           
-        }
-     })
- 
-    
-
-    rotateR.classList.toggle("showR")
-    console.log(rotateR);
-    Btnopacity.classList.toggle("op")
-    rotateL.classList.toggle("showL")
+window.addEventListener("DOMContentLoaded", function(e){
+    e.preventDefault()
+    btnPressed()
 })
+
+function btnPressed(){
+    btnToggle.addEventListener("click", function(e){
+     
+        btnColor.forEach(function(e){
+            if(navBar.classList.contains("show")){
+                navBar.classList.remove("show")
+              
+               
+            }else{
+                navBar.classList.add("show")
+            }
+         })
+     
+        
+    
+        rotateR.classList.toggle("showR")
+        Btnopacity.classList.toggle("op")
+        rotateL.classList.toggle("showL")
+    })
+}
