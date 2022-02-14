@@ -16,7 +16,7 @@
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 640px) {
     .navbar{
         position: fixed;
         height: 100%;
@@ -110,6 +110,36 @@
 }
 
 .link--metis:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 1, 1);
+}
+
+.link-about{
+    position: relative;
+}
+
+.link-about::before,
+.link-about::after{
+ 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+.link-about::before{
+    content: "";
+}
+
+.link--about::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s;
+}
+
+.link--about:hover::before {
     transform-origin: 0% 50%;
     transform: scale3d(1, 1, 1);
 }
