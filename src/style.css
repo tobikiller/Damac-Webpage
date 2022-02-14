@@ -15,8 +15,16 @@
 /*end reponsive font-size*/
 
 
+.box-glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
-@media (max-width: 640px) {
+
+}
+
+@media (max-width: 768px) {
     .navbar{
         position: fixed;
         height: 100%;
@@ -29,6 +37,7 @@
         transform: translate(100%,0); 
         transition: 1s cubic-bezier(0.82, 0, 0.05, 0.99);
         backdrop-filter: blur(4px);
+        z-index: 20;
         
         
       }

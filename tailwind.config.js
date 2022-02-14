@@ -9,7 +9,11 @@ module.exports = {
       fontFamily: {
         'Montserrat': "Montserrat",
         'Poppins': "Poppins",
-        'Edwarain': "Edwardian Script"
+        'Edwarain': "Edwardian Script",
+        'JetBrain': "JetBrains Mono, monospace;",
+      },
+      backgroundImage:{
+        "productPackage": "url('images/product package.png') "
       }
     },
   },

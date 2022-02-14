@@ -10,6 +10,18 @@ window.addEventListener("DOMContentLoaded", function(e){
     btnPressed()
 })
 
+window.addEventListener("scroll", function(){
+    const navScroll = document.querySelector(".nav-scroll")
+    let windowScrooll = window.pageYOffset
+    if(windowScrooll > 20){
+        navScroll.classList.add("box-glass")
+    }else{
+        navScroll.classList.remove("box-glass")
+    }
+
+    windowScrooll = window.scrollY
+})
+
 function btnPressed(){
     btnToggle.addEventListener("click", function(e){
      
