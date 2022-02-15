@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="output.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"> -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet"> 
 
 </head>
 
@@ -151,6 +153,7 @@
         </div>
       </div>
     </section>
+    <!-- Product articles section-->
     <section>
       <div class="mt-24 px-10    ">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  justify-items-center place-items-center gap-5  w-full">
@@ -196,9 +199,29 @@
            <a class="block bg-greenTeal text-white font-Poppins font-bold text-sm md:text-base py-3 px-5 rounded-sm" href="#">View More</a>
          </div>
     </section>
- 
+ <!--End product article section-->
+
+ <!--Testimonal section-->
+    <section class="Testimonal-section">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">0</li>
+            <li class="glide__slide">1</li>
+            <li class="glide__slide">2</li>
+          </ul>
+        </div>
+      </div>
+        <div class="grid grid-cols-1">
+          
+        </div>
+    </section>
   </main>
   <script src="index.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.About-section');
+  </script>
 </body>
 
 </html>
