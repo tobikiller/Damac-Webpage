@@ -16,6 +16,10 @@ module.exports = {
       },
       backgroundImage:{
         "productPackage": "url('images/product package.png') "
+      },
+      backgroundSize:{
+        '250px': "350px",
+        '150px': "150px"
       }
     },
   },
