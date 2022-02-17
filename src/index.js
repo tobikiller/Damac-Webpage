@@ -6,9 +6,11 @@ const rotateL = document.querySelector(".btn-rotateL")
 const Btnopacity = document.querySelector(".btn-opacity")
 
 window.addEventListener("DOMContentLoaded", function(e){
-    e.preventDefault()
+    
     btnPressed()
 })
+
+
 
 window.addEventListener("scroll", function(){
     const navScroll = document.querySelector(".nav-scroll")
@@ -24,14 +26,16 @@ window.addEventListener("scroll", function(){
 
 function btnPressed(){
     btnToggle.addEventListener("click", function(e){
-     
+       
         btnColor.forEach(function(e){
+           
             if(navBar.classList.contains("show")){
                 navBar.classList.remove("show")
-              
+               
                
             }else{
                 navBar.classList.add("show")
+            
             }
          })
      
