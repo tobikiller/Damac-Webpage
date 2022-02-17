@@ -15,7 +15,9 @@ module.exports = {
         'JetBrain': "JetBrains Mono, monospace;",
       },
       backgroundImage:{
-        "productPackage": "url('images/product package.png') "
+        "productPackage": "url('images/product package.png') ",
+        "leaftContact": "url('images/leaf bg.png')",
+        "direction": "url('images/direction.png')"
       },
       backgroundSize:{
         '250px': "350px",
