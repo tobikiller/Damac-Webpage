@@ -6,6 +6,7 @@ module.exports = {
         greenTeal: "#7D8F3A",
         darkCoal: "#2D2323",
         darkGreen: "#375232",
+        darkLight: " #B7B7B7",
         
       },
       fontFamily: {
@@ -17,7 +18,8 @@ module.exports = {
       backgroundImage:{
         "productPackage": "url('images/product package.png') ",
         "leaftContact": "url('images/leaf bg.png')",
-        "direction": "url('images/direction.png')"
+        "direction": "url('images/direction.png')",
+        "organicPowder": "url('images/organic powder background.png')",
       },
       backgroundSize:{
         '250px': "350px",
