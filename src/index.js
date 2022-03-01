@@ -47,3 +47,42 @@ function btnPressed(){
     })
 }
 
+
+// carousel
+
+const trackBox = document.getElementById("trackbox-carousel")
+const slides = Array.from(trackBox.children)
+const nextBtn = document.getElementById("next-btn")
+const prevBtn = document.getElementById("prev-btn")
+const indicator = document.querySelector(".indicator")
+const dots = Array.from(indicator.children)
+
+
+const slideWidth = slides[0].getBoundingClientRect().width
+
+function slidePosition(slide, index){
+    slide.style.left = slideWidth * index +"px"
+
+}
+
+slides.forEach(slidePosition)
+
+function moveSlide(trackBox, currentSlide, targetslide){
+    trackBox.style.transform = 'translateX(-'+ targetslide.style.left +')'
+    currentSlide.classList.remove("carousel-slide")
+    targetslide.classList.add("carousel-slide")
+}
+
+nextBtn.addEventListener("click", e=> {
+    const currentSlide = trackBox.querySelector(".carousel-slide")
+    const nextSlide = currentSlide.nextElementSibling;
+
+    moveSlide(trackBox, currentSlide , nextSlide)
+})
+
+prevBtn.addEventListener("click", e=>{
+    const currentSlide = trackBox.querySelector(".carousel-slide")
+    const prevSlide = currentSlide.previousElementSibling;
+
+    moveSlide(trackBox, currentSlide , prevSlide)
+})
