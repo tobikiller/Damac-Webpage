@@ -20,7 +20,8 @@ module.exports = {
         "leaftContact": "url('images/leaf bg.png')",
         "direction": "url('images/direction.png')",
         "organicPowder": "url('images/organic powder background.png')",
-        "bg-slide": "url('images/pmv-chamara-MEsWk-dZzlI-unsplash.jpg') "
+        "superfood": "url('images/super food slider.png') "
+        
       },
       backgroundSize:{
         '250px': "350px",
