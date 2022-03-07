@@ -218,3 +218,16 @@
     
 }
 
+
+.indicator-btn{
+    background: rgb(125, 143, 58,.5);
+}
+
+.indicator-btn.current-slide{
+    background: rgb(125, 143, 58);
+}
+
+
+.hidden-arrow{
+    display: none;
+}

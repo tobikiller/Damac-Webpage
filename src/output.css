@@ -667,6 +667,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 15rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .min-h-max {
   min-height: -webkit-max-content;
   min-height: -moz-max-content;
@@ -1157,6 +1161,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .shadow-md {
